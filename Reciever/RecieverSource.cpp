@@ -140,8 +140,9 @@ int main()
             break;
         }
         default:
-            std::cout << "Sorry I cannot understand your command :(\n";
-            break;
+            std::cout << "Sorry I cannot understand your command :( Bye-Bye!\n";
+            system("pause");
+            return 1;
         }
     }
 
